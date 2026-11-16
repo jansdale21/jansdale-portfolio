@@ -23,5 +23,5 @@ export const journeyMeta = {
     course: "PDC60 · Professional Domain Course 6",
     span: "July to November 2026",
     intro:
-        "Eight milestones from one semester in PDC60, from one-line questions to structured, tested instructions. Each milestone documents a different learning experience through the prompts I wrote, how the AI responded, the evidence, and what I learned.",
+        "Eight milestones from one semester in PDC60, from one-line questions to clear, tested instructions. Each milestone documents a different learning experience through the prompts I wrote, how the AI responded, the evidence, and what I learned.",
 };

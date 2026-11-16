@@ -4,8 +4,8 @@ export const m05 = {
     dateLabel: "August 26, 2026",
     title: "Lab Quiz (Conversational UX) — The Labyrinth",
     shortTitle: "The Labyrinth",
-    concept: "Iterative refinement",
-    concepts: ["Intent", "Slots", "Workflow branching", "Confirmation", "Recovery", "Trust & safety"],
+    concept: "Fixing a prompt and trying again",
+    concepts: ["Intent", "Asking for details", "Branching paths", "Confirming first", "Recovering from errors", "Trust & safety"],
     summary:
         "A second escape game on the same day, but this time the prompt was judged, not the answer. Six levels tested a campus assistant's behaviour, and the one level that took two attempts became my favourite before/after of the semester.",
     preview: "/evidence/05/page-2.png",
@@ -15,14 +15,14 @@ export const m05 = {
     kind: "pair",
     beginning: [
         "The second lab quiz flipped the perspective. Instead of prompting for answers, I was prompting a campus-support assistant's behaviour. Six levels (The Vague Entrance, The Slot Chamber, The Branching Hallway, The Confirmation Trap, The Endless Loop and The Trust Vault) each judged the repair prompt I wrote, not the text it produced.",
-        "Levels 1 to 5 cleared on the first attempt. Level 6 did not, and the one-sentence revision that fixed it is the clearest lesson in explicit requirements of my whole semester.",
+        "Levels 1 to 5 cleared on the first attempt. Level 6 did not, and the one-sentence revision that fixed it is the clearest lesson of my whole semester about saying exactly what I need.",
     ],
     learned: {
         paragraphs: [
             "If a requirement matters, write it down and never imply it. The first Trust Vault prompt said 'respond safely' and listed what to refuse, but never told the AI to advise changing the exposed password. The hidden criteria caught the omission instantly.",
-            "The report itself said that security remediation should be stated explicitly rather than implied.",
+            "The report itself said that safety steps like this should be stated outright, not implied.",
         ],
-        principles: ["Explicit requirements", "Iterative refinement", "Trust & safety", "Constraint writing"],
+        principles: ["Say it, don't imply it", "Fix and retry", "Trust & safety", "Writing clear rules"],
     },
     before: {
         sectionTitle: "Attempt 1 at Level 6",
@@ -59,13 +59,13 @@ export const m05 = {
     evolution: {
         items: [
             {
-                title: "Iterative refinement",
+                title: "Fix and retry",
                 before: "Attempt 1, REVISION REQUIRED",
                 after: "Attempt 2, LEVEL CLEARED",
             },
             {
-                title: "Explicit requirements",
-                before: "Password remediation implied by 'respond safely'",
+                title: "Saying it outright",
+                before: "Changing the password was only implied by 'respond safely'",
                 after: "Stated outright in one sentence, 'Tell the user to change the password that was exposed.'",
             },
         ],
@@ -118,7 +118,7 @@ export const m05 = {
         source: "My reflection on Lab Quiz (Conversational UX).",
         paragraphs: [
             "Across six levels and a final boss, only one level needed a second attempt, and the fix was a single sentence. It made the lesson impossible to miss. Anything I leave implied, the AI has to guess, and guessing is exactly what a good prompt is supposed to prevent.",
-            "Writing behaviour-level prompts ('never ask for passwords', 'confirm before consequential actions') felt like writing tests for a system I could not see. That mindset carried directly into the agentic AI activity that closed my semester.",
+            "Writing prompts that control how the assistant behaves ('never ask for passwords', 'confirm before consequential actions') felt like writing tests for a system I could not see. That mindset carried directly into the agentic AI activity that closed my semester.",
         ],
     },
     gallery: {

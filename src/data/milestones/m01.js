@@ -4,8 +4,8 @@ export const m01 = {
     dateLabel: "July 25, 2026",
     title: "Lab Exercise #1 — Exploring & Comparing Modern Conversational AI Platforms",
     shortTitle: "Comparing AI Platforms",
-    concept: "Prompt specificity",
-    concepts: ["Audience", "Constraints", "Specificity", "Output format"],
+    concept: "Being specific",
+    concepts: ["Audience", "Limits", "Being specific", "Answer format"],
     summary:
         "I compared ChatGPT, Google Gemini and Claude with the same prompts. Then a prompt-modification experiment showed me, in my own screenshots, exactly how much the wording of a prompt controls the answer.",
     preview: "/evidence/01/01_BEFORE_basic-prompt_and_ai-output.png",
@@ -16,14 +16,14 @@ export const m01 = {
     shots: "pair",
     beginning: [
         "Lab Exercise #1 was my first structured hands-on with the three major conversational AI platforms. I explored ChatGPT, Google Gemini and Claude feature by feature, then gave all three the same prompts and scored the responses on five criteria. Claude finished first overall as the clearest and most complete, but all three were equally accurate on the same prompts.",
-        "The turning point was the prompt-modification experiment. I ran one deliberately basic prompt, then a fully specified version of the same question, and compared the two outputs side by side. That is where I first saw, in my own screenshots, that a prompt is a specification and not just a question.",
+        "The turning point was the prompt-modification experiment. I ran one deliberately basic prompt, then a fully specified version of the same question, and compared the two outputs side by side. That is where I first saw, in my own screenshots, that a prompt is a set of instructions and not just a question.",
     ],
     learned: {
         paragraphs: [
-            "A prompt is a specification. When I named the audience, capped the length, fixed the scope and demanded a format, the AI stopped improvising and started delivering exactly the artifact I needed. Every one of those four levers showed up visibly in the output.",
+            "A prompt works like a set of instructions. When I named the reader, set a word limit, narrowed the topic and asked for a format, the AI stopped guessing and gave me exactly what I needed. Each of those four changes showed up clearly in the answer.",
             "Naming the audience mattered most. With 'first-year IT students' as the reader, the jargon disappeared and the examples became relatable.",
         ],
-        principles: ["Audience", "Word limits", "Scope", "Output format"],
+        principles: ["Audience", "Word limits", "Narrow topic", "Answer format"],
     },
     before: {
         promptLabel: "Original prompt",
@@ -60,17 +60,17 @@ export const m01 = {
                 after: "First-year IT students with no professional cybersecurity experience",
             },
             {
-                title: "Constraints",
+                title: "Limits",
                 before: "No length limit, so the answer could sprawl",
                 after: "200 words or fewer",
             },
             {
-                title: "Specificity",
+                title: "How specific",
                 before: "Open-ended 'tell me about…'",
                 after: "Exactly three threats, each with one real-world example",
             },
             {
-                title: "Output requirements",
+                title: "Answer format",
                 before: "Free-form paragraphs",
                 after: "Simple language, organised with headings and bullet points",
             },

@@ -4,15 +4,15 @@ export const m08 = {
     dateLabel: "August 5, 2026",
     title: "AI Personalization — Engineering My Own Custom Instructions",
     shortTitle: "AI Personalization",
-    concept: "Meta-prompting",
-    concepts: ["Meta-prompting", "Role assignment", "Process control", "Output specification", "Memory policy"],
+    concept: "A prompt that sets up the AI",
+    concepts: ["Setting up the AI", "Giving it a role", "Interview rules", "Required outputs", "What to remember"],
     summary:
         "Written the same day as Lab Exercise #2. Instead of asking ChatGPT a question, I asked it to interview me one question at a time so it could write my own personalisation and memory preferences.",
     preview: "/evidence/08/01_chatgpt-custom-instructions_result.png",
     kind: "single",
     beginning: [
-        "I wrote this on August 5, the same day as Lab Exercise #2. It was designed from the start as a tool for improving the tool itself. Its deliverable is not an answer but a configuration that every future conversation starts from.",
-        "The prompt below makes ChatGPT an interviewer. One question at a time, each building on my previous answers, with follow-ups whenever I am vague, until it has enough to write my personalisation, my response preferences and a memory policy.",
+        "I wrote this on August 5, the same day as Lab Exercise #2. I made it to improve ChatGPT itself. What it gives back is not an answer but settings that every future chat starts from.",
+        "The prompt below makes ChatGPT an interviewer. One question at a time, each building on my previous answers, with follow-ups whenever I am vague, until it has enough to write my personalisation, my response preferences and rules for what to remember.",
     ],
     solo: {
         promptLabel: "The prompt",
@@ -30,21 +30,21 @@ export const m08 = {
     },
     learned: {
         paragraphs: [
-            "This is meta-prompting. The output of this prompt is not text I read once but instructions that shape every future conversation. Most of the design effort went into process control, with one question at a time, no skipped topics, follow-ups on vague answers, and a justification for every next question.",
-            "It also specifies its own deliverables, five required output sections, down to a memory policy for what should and should not be remembered about me. A prompt with acceptance criteria.",
+            "This prompt doesn't make something I read once. It makes instructions that shape every future chat. Most of my effort went into how the interview runs, with one question at a time, no skipped topics, follow-ups on vague answers, and a justification for every next question.",
+            "It also lists exactly what it must hand back, five required sections, down to rules for what should and should not be remembered about me. It's a prompt with acceptance criteria.",
         ],
-        principles: ["Role assignment", "One-question-at-a-time", "Challenge assumptions", "Required output sections", "Memory policy"],
+        principles: ["Giving it a role", "One question at a time", "Challenge my assumptions", "Required sections", "What to remember"],
     },
     evolution: {
         title: "Anatomy of the prompt",
         items: [
             {
-                title: "Role assignment",
+                title: "Role",
                 before: "—",
                 after: "'Act as an expert personalization consultant for ChatGPT'",
             },
             {
-                title: "Process control",
+                title: "How the interview runs",
                 before: "—",
                 after: "A structured interview, one question at a time, building on answers, with follow-ups on vague replies",
             },
@@ -54,14 +54,14 @@ export const m08 = {
                 after: "Challenge assumptions and justify why each next question matters",
             },
             {
-                title: "Output specification",
+                title: "What it must deliver",
                 before: "—",
                 after: "Five required deliverables, from an 'About Me' section to a reasoning summary",
             },
             {
-                title: "Persistence",
+                title: "Memory",
                 before: "—",
-                after: "An explicit memory policy on what should and should not be remembered across conversations",
+                after: "Clear rules on what should and should not be remembered across chats",
             },
         ],
     },
@@ -70,7 +70,7 @@ export const m08 = {
         source: "My reflection on AI Personalization.",
         paragraphs: [
             "I wrote this the same day as Lab Exercise #2, where ChatGPT's memory carried the UniConnect details into a brand-new conversation. This prompt works from the other side. Instead of observing what the AI remembers, it sets out what should and should not be remembered, and it writes the instructions every future conversation starts from.",
-            "It builds on what Lab Exercise #1 had already shown me (audience, constraints and explicit output requirements) and pushes further with a defined role, rules for how the interview runs, and five required deliverables. Looking back, it was an early version of the structured prompts I would later learn to name in the frameworks exercise.",
+            "It builds on what Lab Exercise #1 had already shown me (audience, limits and clear output requirements) and pushes further with a defined role, rules for how the interview runs, and five required deliverables. Looking back, it was an early version of the structured prompts I would later learn to name in the frameworks exercise.",
         ],
     },
     gallery: null,

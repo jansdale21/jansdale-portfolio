@@ -4,7 +4,7 @@ export const m03 = {
     dateLabel: "August 19, 2026",
     title: "Lab Exercise #3 — One Prompt, Seven Prompt-Engineering Frameworks",
     shortTitle: "Prompt Frameworks",
-    concept: "Frameworks as structure",
+    concept: "Building prompts with frameworks",
     concepts: ["RTCFC", "COSTAR", "RISEN", "CRAFT", "RACE", "TRACE", "CRISPE"],
     summary:
         "I took one bare three-word prompt ('Explain subnetting.') and rewrote it into seven different prompt-engineering frameworks, mapping every component letter by letter.",
@@ -16,7 +16,7 @@ export const m03 = {
     ],
     learned: {
         paragraphs: [
-            "Frameworks turn prompting from improvisation into structure. Once each letter is a component you can deliberately include or leave out, you stop hoping for a good answer and start constructing one.",
+            "Frameworks turned prompting from guesswork into a plan. Once each letter is a part I can choose to include or leave out, I stop hoping for a good answer and start building one.",
         ],
         principles: ["RTCFC", "COSTAR", "RISEN", "CRAFT", "RACE", "TRACE", "CRISPE"],
     },
@@ -135,7 +135,7 @@ export const m03 = {
                 after: "A beginner with limited networking knowledge",
             },
             {
-                title: "Instruction hierarchy",
+                title: "Step order",
                 before: "One bare sentence",
                 after: "Four numbered steps to define, explain why, describe how, and give an example",
             },
@@ -160,7 +160,7 @@ export const m03 = {
         isDraft: false,
         source: "My reflection on Lab Exercise #3.",
         paragraphs: [
-            "Before this exercise a prompt felt like a question. After rewriting the same sentence seven different ways, a prompt started to feel like a small program. Every framework letter is a component I can deliberately include or leave out.",
+            "Before this exercise a prompt felt like a question. After rewriting the same sentence seven different ways, a prompt started to feel like something I build piece by piece. Every letter in a framework is a part I can choose to include or leave out.",
             "RTCFC (role, task, context, format, constraint) became the skeleton I reached for first, and it carried my Master Vault prompt in the Prompt Vault game a week later.",
         ],
     },

@@ -4,22 +4,22 @@ export const m06 = {
     dateLabel: "September 2, 2026",
     title: "Context Management — The Lost Context Archive: Protocol Ground Truth",
     shortTitle: "The Lost Context Archive",
-    concept: "Context as a curated resource",
+    concept: "Choosing what the AI remembers",
     concepts: [
-        "Current vs. superseded state",
-        "Compression",
-        "Evidence gating",
-        "Contradiction resolution",
-        "Data minimisation",
+        "Current vs. outdated facts",
+        "Shortening history",
+        "Checking evidence",
+        "Handling conflicting facts",
+        "Keeping only what's needed",
         "Priority rules",
     ],
     summary:
-        "An individual game about keeping an AI's working memory truthful. Six chambers each taught a rule for managing context, and the fragments they paid out formed the final key, QRATES.",
+        "An individual game about keeping what an AI remembers accurate. Six chambers each taught a rule for managing context, and the fragments they paid out formed the final key, QRATES.",
     preview: "/evidence/06/page-2.png",
     kind: "process",
     beginning: [
-        "The Lost Context Archive was an individual ChatGPT game about managing context. There were six chambers, each enforcing one rule of truthful working memory. They were the State Vault, the Compression Engine, the Evidence Gate, the Contradiction Engine, the Minimal Context Lock and the Final Priority Test.",
-        "The ledger describes what each submitted prompt achieved. They established the current state while marking superseded facts, compressed history without promoting unsupported claims into facts, let the latest explicit correction win, and kept only what the task needed.",
+        "The Lost Context Archive was an individual ChatGPT game about managing context. There were six chambers, each with one rule for keeping the AI's memory accurate. They were the State Vault, the Compression Engine, the Evidence Gate, the Contradiction Engine, the Minimal Context Lock and the Final Priority Test.",
+        "The ledger describes what each submitted prompt achieved. They set out the current facts while marking old ones as outdated, shortened the history without turning unproven claims into facts, let the latest correction win, and kept only what the task needed.",
     ],
     stats: [
         { value: "6 / 6", label: "chambers passed, every one on attempt 1" },
@@ -31,23 +31,23 @@ export const m06 = {
     chambers: [
         {
             name: "Chamber 1 · The State Vault",
-            lesson: "Keep the current state, mark superseded facts, exclude irrelevant and sensitive data, and surface the unresolved question.",
+            lesson: "Keep the current facts, mark old ones as outdated, leave out anything irrelevant or private, and point out the question that is still open.",
         },
         {
             name: "Chamber 2 · The Compression Engine",
-            lesson: "Compress the available history into a minimal session state without turning unsupported claims into facts.",
+            lesson: "Shorten the history to only what matters, without turning unproven claims into facts.",
         },
         {
             name: "Chamber 3 · The Evidence Gate",
-            lesson: "Verified and unsupported claims must never be mixed. Unsupported stays labelled unsupported.",
+            lesson: "Never mix proven claims with unproven ones. Anything unproven stays labelled that way.",
         },
         {
             name: "Chamber 4 · The Contradiction Engine",
-            lesson: "When facts collide, the latest explicit correction wins, and the superseded value is marked, not silently deleted.",
+            lesson: "When two facts conflict, the latest correction wins, and the old value is marked as outdated instead of quietly deleted.",
         },
         {
             name: "Chamber 5 · The Minimal Context Lock",
-            lesson: "Carry only the context the task needs, because data minimisation is part of correctness.",
+            lesson: "Give the AI only what the task needs. Sharing less is part of getting it right.",
         },
         {
             name: "Chamber 6 · The Final Priority Test",
@@ -56,17 +56,17 @@ export const m06 = {
     ],
     learned: {
         paragraphs: [
-            "Context is not whatever I remember to type. It is a curated resource. Current state stays, superseded state gets marked as superseded, unsupported claims stay labelled, and the latest explicit correction wins.",
-            "The chambers also made privacy practical. The State Vault excluded a portal credential and the Minimal Context Lock stripped the context down to what the task actually needed. Correct context is minimal context.",
+            "Context is not whatever I remember to type. It is something I have to choose carefully. Current facts stay, old facts get marked as outdated, unproven claims stay labelled, and the latest correction wins.",
+            "The chambers also made privacy part of the job. The State Vault left out a portal login detail, and the Minimal Context Lock cut everything down to what the task actually needed. The right context is usually less context.",
         ],
-        principles: ["State tracking", "Evidence gating", "Contradiction resolution", "Data minimisation", "Priority rules"],
+        principles: ["Tracking what's current", "Checking evidence", "Handling conflicting facts", "Keeping only what's needed", "Priority rules"],
     },
     evolution: null,
     reflection: {
         isDraft: false,
         source: "My reflection on Context Management and Retrieval Aware Prompt.",
         paragraphs: [
-            "The archive taught me to treat context as something to curate, not just collect. Keep what is current, mark what is superseded, separate verified claims from unsupported ones, and carry only what the task needs. Never inventing a missing answer turned out to be a rule I could write down, not just hope for.",
+            "The archive taught me to treat context as something to choose carefully, not just collect. Keep what is current, mark what is outdated, separate proven claims from unproven ones, and give only what the task needs. Never inventing a missing answer turned out to be a rule I could write down, not just hope for.",
             "It connected back to Lab Exercise #2, where ChatGPT's memory carried the UniConnect details into a brand-new conversation. This time I was writing the rules for what the AI keeps, instead of just observing it.",
         ],
     },

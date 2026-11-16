@@ -107,7 +107,7 @@ export const projects = [
         subtitle: "Connected Asset Tracking",
         year: "2026",
         role: "Project Manager · Hardware & Backend Developer",
-        summary: "Layered asset tracking and persistent identification for physical assets.",
+        summary: "Tracks where physical assets are and keeps each one's ID visible, even without power.",
         stack: ["ESP32", "C++", "GNSS/GSM", "Traccar", "Laravel", "MySQL", "Flutter", "NFC"],
         images: [
             { src: "/projects/latch_01_mobile-app_location-view.jpg", caption: "LATCH mobile app, live location view" },
@@ -155,7 +155,7 @@ export const projects = [
         year: "2025",
         role: "Project Manager · Full-Stack Developer",
         summary:
-            "A Laravel/MySQL web application for NFC-supported clinical information access and traceable workflows, with patient, visit, queue, appointment and NFC tag views in one dashboard.",
+            "A Laravel/MySQL web app that uses NFC tags to pull up clinic information and keep a record of each step, with patient, visit, queue, appointment and NFC tag views in one dashboard.",
         stack: ["NFC", "Laravel", "PHP", "MySQL", "JavaScript"],
         images: [{ src: "/projects/lifetag_01_clinical-dashboard.jpg", caption: "Clinical dashboard" }],
     },

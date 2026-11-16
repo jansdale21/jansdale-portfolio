@@ -25,9 +25,9 @@ export const m04 = {
     learned: {
         paragraphs: [
             "Under escape-room pressure, concise beats clever. The final report named RTCFC as the strongest technique of the run and the compact Lock 6 RACE prompt as the most efficient successful prompt. It cleared every criterion on its first attempt with a small, tight structure.",
-            "The report also named what to improve, which was to make fallback and edge-case behaviour slightly more explicit while keeping prompts concise. The Labyrinth game later that day tested exactly that. Its one level that needed a second attempt failed on a requirement I had left implied.",
+            "The report also named what to improve, which was to say a little more clearly what the assistant should do in unusual cases, while keeping prompts short. The Labyrinth game later that day tested exactly that. Its one level that needed a second attempt failed on a requirement I had left implied.",
         ],
-        principles: ["Token economy", "Compact structure", "Explicit fallbacks"],
+        principles: ["Fewer words", "Short, tight structure", "Planning for unusual cases"],
     },
     evolution: {
         title: "What carried the boss prompt",
@@ -38,19 +38,19 @@ export const m04 = {
             },
             {
                 title: "Role",
-                text: "A campus IT triage role for the assistant.",
+                text: "The assistant played a campus IT helpdesk that sorts incoming problems.",
             },
             {
-                title: "Output control",
+                title: "Output",
                 text: "Four examples supplied and the required output format specified.",
             },
             {
                 title: "Safety",
-                text: "The prompt prohibited handling authentication secrets.",
+                text: "The prompt banned handling passwords and other login secrets.",
             },
             {
                 title: "Room to improve",
-                text: "The report asked for more explicit fallback and edge-case behaviour.",
+                text: "The report asked me to spell out what to do in unusual cases.",
             },
         ],
     },

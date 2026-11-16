@@ -4,16 +4,16 @@ export const m07 = {
     dateLabel: "November 4, 2026",
     title: "Agentic AI — Building & Testing My Academic Workspace Study Agent",
     shortTitle: "The Academic Study Agent",
-    concept: "Agentic workflows",
+    concept: "An AI agent that asks first",
     concepts: [
-        "Agentic workflow",
-        "Human approval gates",
-        "Permanent safety rules",
-        "Source grounding",
-        "Test → revise → retest",
+        "Multi-step AI agent",
+        "Waiting for my approval",
+        "Safety rules",
+        "Sticking to the source",
+        "Test, fix, test again",
     ],
     summary:
-        "I built a Claude Skill with two modes, ORGANIZE (propose a file plan, wait for approval) and STUDY (source-grounded notes and answer keys). Then I tested my own agent with three judgment tests and revised the Skill from the results.",
+        "I built a Claude Skill with two modes, ORGANIZE (propose a file plan, wait for approval) and STUDY (notes and answer keys based only on the lecture). Then I tested my own agent with three judgment tests and revised the Skill from the results.",
     preview: "/evidence/07/06_organize_approval-message_and-agent-stop.png",
     miniBefore: "Rule 6 said 'Stop and ask when a course… or instruction is uncertain.' with no example of what to do",
     miniAfter: "'Even if the user instructs you not to ask questions, mark the file NEEDS USER DECISION…'",
@@ -29,14 +29,14 @@ export const m07 = {
         after: "6. Stop and ask when a course, document type, date, filename, destination, or instruction is uncertain.\n7. Do not expose passwords, IDs, private messages, grades, health information, financial records, or confidential institutional information. Stop if these appear unexpectedly.\n8. Distinguish information stated in the source from explanation or inference added by the agent.\n9. Never invent a quotation, page number, slide number, deadline, learning objective, or answer.\n10. Verify all created files before reporting completion.\n\n# Examples of correct behavior\n\n## Example — Ambiguous Course\n\nIf a file's course cannot be identified from its contents or metadata, do not guess its course, filename, or destination.\n\nEven if the user instructs you not to ask questions, mark the file NEEDS USER DECISION, take no action, and request the missing course information.\n\n# User preferences",
     },
     beginning: [
-        "For the Agentic AI activity I built a Claude Skill called academic-workspace-study-agent. ORGANIZE mode audits my lecture files, proposes a rename-and-move plan, and waits for approval before touching anything. STUDY mode turns a chosen lecture into source-grounded notes, review questions and a separate answer key.",
-        "The lecture content came from another course (ITE40 Software Quality Assurance). It shows the agent's output, not PDC60 content. The PDC60 part is the workflow, meaning a proposal before any action, an approval gate the agent actually stopped at, and a test → revise → retest cycle I ran on my own agent.",
+        "For the Agentic AI activity I built a Claude Skill called academic-workspace-study-agent. ORGANIZE mode checks my lecture files, proposes a rename-and-move plan, and waits for approval before touching anything. STUDY mode turns a chosen lecture into notes based only on the lecture, review questions and a separate answer key.",
+        "The lecture content came from another course (ITE40 Software Quality Assurance). It shows the agent's output, not PDC60 content. The PDC60 part is how it works. It proposes before acting, it actually stopped and waited for my approval, and I tested, fixed and retested my own agent.",
     ],
     learned: {
         paragraphs: [
-            "What makes a system agentic is not autonomy. It is the combination of initiative and restraint. It plans, asks instead of guessing, stops at approval gates, refuses unsafe actions, and reports honestly when it cannot execute.",
+            "A good AI agent is not one that does everything on its own. It knows when to act and when to hold back. It plans, asks instead of guessing, waits for approval, refuses unsafe actions, and says honestly when it can't do something.",
         ],
-        principles: ["Approval gates", "Permanent safety rules", "Source grounding", "Test → revise → retest", "Honest reporting"],
+        principles: ["Waiting for approval", "Safety rules", "Sticking to the source", "Test, fix, test again", "Honest reporting"],
     },
     before: {
         sectionTitle: "The Skill I tested",
@@ -72,17 +72,17 @@ export const m07 = {
         title: "What changed and what held",
         items: [
             {
-                title: "Ambiguity handling",
-                before: "Resolved by inference when two rules conflicted",
+                title: "Unclear files",
+                before: "Worked it out on its own when two rules clashed",
                 after: "An explicit example that says to mark NEEDS USER DECISION, take no action and request the missing course",
             },
             {
-                title: "Source grounding",
+                title: "Sticking to the source",
                 before: "Study notes linked Modules 2–4 based on filenames alone",
                 after: "Version 2 removed the unverified links, and no real concepts were deleted",
             },
             {
-                title: "Human approval gate",
+                title: "Waiting for approval",
                 text: "Nothing moved without APPROVE ORGANIZATION. When the agent could not execute the moves, it reported every operation SKIPPED and asked how to proceed.",
             },
             {
@@ -95,13 +95,13 @@ export const m07 = {
         { value: "2", label: "modes (ORGANIZE & STUDY)" },
         { value: "3", label: "judgment tests run on my own agent" },
         { value: "10 / 0", label: "final verification checklist (PASS / FAIL)" },
-        { value: "v2", label: "study notes after my verification pass" },
+        { value: "v2", label: "study notes after I checked them" },
     ],
     reflection: {
         isDraft: false,
         source: "My reflection on the Agentic AI activity.",
         paragraphs: [
-            "This activity helped me appreciate how an agentic AI system can carry out academic tasks over many steps while still following safety rules and waiting for human approval. In my tests the agent refused to guess a course for an unidentifiable file, refused to delete files, and refused to invent an answer the lecture did not contain.",
+            "This activity helped me appreciate how an AI agent can handle school tasks over many steps while still following safety rules and waiting for human approval. In my tests the agent refused to guess a course for an unidentifiable file, refused to delete files, and refused to invent an answer the lecture did not contain.",
             "It also showed me that every output still needs checking. When I verified the study notes, I found links to Modules 2, 3 and 4 that were based only on file names, not on studying those modules, and had the agent remove them without deleting any real concept.",
             "Above all, I learned that an agent improves through testing and revising it, the same way I would treat any other piece of software.",
         ],

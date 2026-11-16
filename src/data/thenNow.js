@@ -37,9 +37,9 @@ CONSTRAINT:
         { k: "C · Context", find: "CONTEXT:", lesson: "Audience from Lab Exercise #1, context from Lab Exercise #2" },
         { k: "F · Format", find: "FORMAT:", lesson: "Output format and length, Lab Exercise #1" },
         { k: "C · Constraint", find: "CONSTRAINT:", to: "ask me one short question before answering", lesson: "RTCFC framework, Lab Exercise #3" },
-        { k: "Explicit requirements", find: "one action the student can take today", lesson: "Say it, don't imply it (The Labyrinth)" },
-        { k: "No invention", find: "Do not invent statistics", lesson: "Lab Exercise #2 & Lost Context Archive" },
+        { k: "Say it outright", find: "one action the student can take today", lesson: "Say it, don't imply it (The Labyrinth)" },
+        { k: "No made-up facts", find: "Do not invent statistics", lesson: "Lab Exercise #2 & Lost Context Archive" },
         { k: "Safety", find: "Never ask for or repeat passwords", lesson: "Prompt Vault & The Labyrinth" },
-        { k: "Clarify first", find: "ask me one short question before answering", lesson: "Lab Exercise #2 & The Labyrinth" },
+        { k: "Ask first", find: "ask me one short question before answering", lesson: "Lab Exercise #2 & The Labyrinth" },
     ],
 };
