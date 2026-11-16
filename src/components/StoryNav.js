@@ -19,7 +19,7 @@ function JumpTo({ current }) {
                 >
                     {milestones.map((m) => (
                         <option key={m.slug} value={m.slug}>
-                            {m.num} — {m.shortTitle}
+                            {m.num} · {m.shortTitle}
                             {m.slug === current ? " (this story)" : ""}
                         </option>
                     ))}
@@ -47,7 +47,7 @@ export default function StoryNav({ prev, next, current }) {
                         <ArrowLeft size={12} /> Previous story
                     </span>
                     <span className="mt-2 block font-display text-sm font-bold text-ink group-hover:text-lime md:text-base">
-                        {prev.num} — {prev.shortTitle}
+                        {prev.num} · {prev.shortTitle}
                     </span>
                 </Link>
             ) : (
@@ -70,7 +70,7 @@ export default function StoryNav({ prev, next, current }) {
                         Next story <ArrowRight size={12} />
                     </span>
                     <span className="mt-2 block font-display text-sm font-bold text-ink group-hover:text-lime md:text-base">
-                        {next.num} — {next.shortTitle}
+                        {next.num} · {next.shortTitle}
                     </span>
                 </Link>
             ) : (

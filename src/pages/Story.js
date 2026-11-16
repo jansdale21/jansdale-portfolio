@@ -216,17 +216,17 @@ export default function Story() {
     if (m.kind === "framework") {
         add(
             "before",
-            m.before.sectionTitle || "Before — my original prompt",
+            m.before.sectionTitle || "My original prompt",
             <PromptEvidence data={m.before} tone="amber" side="before-panel" id="before-prompt" />,
             "amber"
         );
-        add("after", "After — seven framework rewrites", <FrameworkPicker frameworks={m.frameworks} />);
+        add("after", "Seven framework rewrites", <FrameworkPicker frameworks={m.frameworks} />);
     }
     if (m.kind === "single") {
         add("prompt", "The prompt", <PromptEvidence data={m.solo} tone="lime" side="solo-panel" id="solo-prompt" />);
     }
     if (m.kind === "process") {
-        add("results", "The run — results", <Stats data={m.stats} />);
+        add("results", "Results of the run", <Stats data={m.stats} />);
     }
 
     if (m.evolution) {
@@ -266,7 +266,7 @@ export default function Story() {
                     {m.ledger.items.map((it) => (
                         <PromptBlock
                             key={it.id}
-                            label={`${it.id} — ${it.level}`}
+                            label={`${it.id} · ${it.level}`}
                             prompt={it.prompt}
                             tone="ink"
                             chip={it.chip}
@@ -300,10 +300,17 @@ export default function Story() {
                 <Reveal>
                     <header className="border-b border-lined pb-10">
                         <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-lime">
-                            Milestone {m.num} / {String(milestones.length).padStart(2, "0")} — {m.dateLabel}
+                            Milestone {m.num} / {String(milestones.length).padStart(2, "0")} · {m.dateLabel}
                         </p>
                         <h1 className="mt-4 font-display text-3xl font-extrabold leading-tight md:text-5xl">
-                            {m.title}
+                            {m.title.includes(" — ") ? (
+                                <>
+                                    <span className="ix-h1-kicker">{m.title.split(" — ")[0]}</span>
+                                    {m.title.split(" — ").slice(1).join(" ")}
+                                </>
+                            ) : (
+                                m.title
+                            )}
                         </h1>
                         <div className="mt-6 flex flex-wrap gap-2">
                             {m.concepts.map((c) => (

@@ -158,7 +158,7 @@ export default function Nav() {
                 }`}
             >
                 <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 md:h-[72px] md:px-10">
-                    <Link to="/" data-testid="nav-logo-link" className="flex items-center gap-3" aria-label="Jansdale Yusi — home">
+                    <Link to="/" data-testid="nav-logo-link" className="flex items-center gap-3" aria-label="Jansdale Yusi, home">
                         <Logo />
                         <span className="font-mono text-[11px] uppercase tracking-[0.3em] text-ink">
                             Jansdale·Yusi

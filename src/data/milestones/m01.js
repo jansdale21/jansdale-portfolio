@@ -7,7 +7,7 @@ export const m01 = {
     concept: "Prompt specificity",
     concepts: ["Audience", "Constraints", "Specificity", "Output format"],
     summary:
-        "I compared ChatGPT, Google Gemini and Claude with the same prompts — then a prompt-modification experiment showed me, in my own screenshots, exactly how much the wording of a prompt controls the answer.",
+        "I compared ChatGPT, Google Gemini and Claude with the same prompts. Then a prompt-modification experiment showed me, in my own screenshots, exactly how much the wording of a prompt controls the answer.",
     preview: "/evidence/01/01_BEFORE_basic-prompt_and_ai-output.png",
     miniBefore: "Tell me about cybersecurity.",
     miniAfter: "You are explaining cybersecurity to first-year IT students…",
@@ -15,13 +15,13 @@ export const m01 = {
     kind: "pair",
     shots: "pair",
     beginning: [
-        "Lab Exercise #1 was my first structured hands-on with the three major conversational AI platforms. I explored ChatGPT, Google Gemini and Claude feature by feature, then gave all three the same prompts and scored the responses on five criteria. Claude finished first overall — clearest and most complete — but all three were equally accurate on the same prompts.",
-        "The turning point was the prompt-modification experiment: run one deliberately basic prompt, then a fully specified version of the same question, and compare the two outputs side by side. That is where I first saw, with my own screenshots, how much a prompt is a specification — not just a question.",
+        "Lab Exercise #1 was my first structured hands-on with the three major conversational AI platforms. I explored ChatGPT, Google Gemini and Claude feature by feature, then gave all three the same prompts and scored the responses on five criteria. Claude finished first overall as the clearest and most complete, but all three were equally accurate on the same prompts.",
+        "The turning point was the prompt-modification experiment. I ran one deliberately basic prompt, then a fully specified version of the same question, and compared the two outputs side by side. That is where I first saw, in my own screenshots, that a prompt is a specification and not just a question.",
     ],
     learned: {
         paragraphs: [
             "A prompt is a specification. When I named the audience, capped the length, fixed the scope and demanded a format, the AI stopped improvising and started delivering exactly the artifact I needed. Every one of those four levers showed up visibly in the output.",
-            "Naming the audience mattered most: with 'first-year IT students' as the reader, the jargon disappeared and the examples became relatable.",
+            "Naming the audience mattered most. With 'first-year IT students' as the reader, the jargon disappeared and the examples became relatable.",
         ],
         principles: ["Audience", "Word limits", "Scope", "Output format"],
     },
@@ -36,7 +36,7 @@ export const m01 = {
             },
         ],
         outputNote:
-            "The answer covered a wide scope in technical language — useful as a general overview, but written for no one in particular.",
+            "The answer covered a wide scope in technical language. It worked as a general overview, but it was written for no one in particular.",
     },
     after: {
         promptLabel: "Improved prompt",
@@ -46,27 +46,27 @@ export const m01 = {
             {
                 src: "/evidence/01/02_AFTER_detailed-prompt_and_ai-output.png",
                 label: "Improved prompt & AI output",
-                caption: "The improved prompt and the AI's answer — focused, with headings, bullets and one example per threat.",
+                caption: "The improved prompt and the AI's focused answer, with headings, bullets and one example per threat.",
             },
         ],
         outputNote:
-            "Focused, concise, beginner-friendly: exactly three threats, one clear example each, organised with headings.",
+            "Focused, concise and beginner-friendly, with exactly three threats, one clear example each, and headings.",
     },
     evolution: {
         items: [
             {
                 title: "Audience & context",
-                before: "Not specified — the AI picked its own reader",
+                before: "Not specified, so the AI picked its own reader",
                 after: "First-year IT students with no professional cybersecurity experience",
             },
             {
                 title: "Constraints",
-                before: "No length limit — the answer could sprawl",
+                before: "No length limit, so the answer could sprawl",
                 after: "200 words or fewer",
             },
             {
                 title: "Specificity",
-                before: "Open-ended: 'tell me about…'",
+                before: "Open-ended 'tell me about…'",
                 after: "Exactly three threats, each with one real-world example",
             },
             {
@@ -80,8 +80,8 @@ export const m01 = {
         isDraft: false,
         source: "My reflection on Lab Exercise #1.",
         paragraphs: [
-            "ChatGPT, Google Gemini and Claude can all answer questions, analyze files and images, search the web and keep context — but they are not the same. They differed in interface, response style, features and how much detail they gave. On the same prompts all three were equally accurate, yet Claude's answers were the clearest and most complete.",
-            "The bigger lesson was that the prompt matters as much as the platform. My basic prompt got a general overview; the detailed one — written for first-year IT students, in plain language, with one example per threat and a 200-word limit — got a focused answer that was easy to read. What I get back depends on both the tool and the instructions I give it.",
+            "ChatGPT, Google Gemini and Claude can all answer questions, analyze files and images, search the web and keep context, but they are not the same. They differed in interface, response style, features and how much detail they gave. On the same prompts all three were equally accurate, yet Claude's answers were the clearest and most complete.",
+            "The bigger lesson was that the prompt matters as much as the platform. My basic prompt got a general overview. The detailed one, written for first-year IT students in plain language with one example per threat and a 200-word limit, got a focused answer that was easy to read. What I get back depends on both the tool and the instructions I give it.",
         ],
     },
     gallery: {
@@ -90,7 +90,7 @@ export const m01 = {
             {
                 src: "/evidence/01-doc/page-1.png",
                 label: "Document · page 1",
-                caption: "Exploring the three platforms — ChatGPT, Gemini and Claude compared feature by feature.",
+                caption: "Exploring the three platforms, with ChatGPT, Gemini and Claude compared feature by feature.",
             },
             {
                 src: "/evidence/01-doc/page-2.png",
@@ -100,12 +100,12 @@ export const m01 = {
             {
                 src: "/evidence/01-doc/page-3.png",
                 label: "Document · page 3",
-                caption: "The rest of the scores and my answers to the analysis questions — Claude best overall at 25, ChatGPT 23, Gemini 21.",
+                caption: "The rest of the scores and my answers to the analysis questions. Claude was best overall at 25, ChatGPT 23, Gemini 21.",
             },
             {
                 src: "/evidence/01-doc/page-4.png",
                 label: "Document · page 4",
-                caption: "The prompt modification experiment, step 1: the basic prompt and the AI's answer.",
+                caption: "Step 1 of the prompt modification experiment, the basic prompt and the AI's answer.",
             },
             {
                 src: "/evidence/01-doc/page-5.png",

@@ -16,7 +16,7 @@ export default function NotFound() {
     return (
         <main id="main" tabIndex={-1} data-testid="not-found-page" className="flex min-h-[80vh] items-center pt-28">
             <div className="mx-auto max-w-7xl px-5 md:px-10">
-                <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-lime">404 — page not found</p>
+                <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-lime">404 · page not found</p>
                 <h1 className="mt-6 font-display text-4xl font-extrabold leading-tight md:text-6xl">
                     Nothing at this <span className="font-serifacc font-normal italic text-lime">address.</span>
                 </h1>

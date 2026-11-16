@@ -15,7 +15,7 @@ export default function ReflectionBlock({ reflection }) {
                         className="mb-6 inline-flex items-center gap-2 rounded-sm border border-amberw/40 bg-amberw/10 px-2.5 py-1.5 font-mono text-[10px] uppercase tracking-[0.2em] text-amberw"
                     >
                         <PencilLine size={12} />
-                        Draft — awaiting my approval
+                        Draft, awaiting my approval
                     </span>
                 )}
                 <div className="space-y-5">
@@ -33,7 +33,7 @@ export default function ReflectionBlock({ reflection }) {
                     ))}
                 </div>
                 <footer className="mt-7 border-t border-lined pt-5 font-mono text-[11px] uppercase tracking-[0.2em] text-faintw">
-                    — {reflection.source}
+                    {reflection.source}
                 </footer>
             </div>
         </>

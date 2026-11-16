@@ -7,12 +7,12 @@ export const m03 = {
     concept: "Frameworks as structure",
     concepts: ["RTCFC", "COSTAR", "RISEN", "CRAFT", "RACE", "TRACE", "CRISPE"],
     summary:
-        "I took one bare three-word prompt — 'Explain subnetting.' — and rewrote it into seven different prompt-engineering frameworks, mapping every component letter by letter.",
+        "I took one bare three-word prompt ('Explain subnetting.') and rewrote it into seven different prompt-engineering frameworks, mapping every component letter by letter.",
     preview: "/evidence/03/page-1.png",
     kind: "framework",
     beginning: [
-        "By the third lab exercise the question changed. It was no longer 'what makes a prompt good?' but 'can a good prompt be engineered systematically?' The task: take one bare three-word prompt and convert it into seven different prompt-engineering frameworks, component by component.",
-        "Each framework is a different checklist for the same job — RTCFC starts from Role and Task, COSTAR from Context and Objective, CRISPE from Capacity and Insight — yet all seven land on the same principles: say who the AI is, who the reader is, what exactly to do, and what the answer should look like.",
+        "By the third lab exercise the question changed. It was no longer 'what makes a prompt good?' but 'can a good prompt be engineered systematically?' The task was to take one bare three-word prompt and convert it into seven different prompt-engineering frameworks, component by component.",
+        "Each framework is a different checklist for the same job. RTCFC starts from Role and Task, COSTAR from Context and Objective, and CRISPE from Capacity and Insight. Yet all seven land on the same principles. Say who the AI is, who the reader is, what exactly to do, and what the answer should look like.",
     ],
     learned: {
         paragraphs: [
@@ -25,7 +25,7 @@ export const m03 = {
         prompt: "Explain subnetting.",
         evidence: [],
         outputNote:
-            "Three words: no role, no audience, no format, no limits. Every rewrite below starts from this same sentence.",
+            "Just three words, with no role, no audience, no format and no limits. Every rewrite below starts from this same sentence.",
     },
     frameworks: [
         {
@@ -126,7 +126,7 @@ export const m03 = {
         items: [
             {
                 title: "Role assignment",
-                before: "No role — the AI answers as itself",
+                before: "No role, so the AI answers as itself",
                 after: "'Act as a networking instructor' · 'a networking expert' · 'an experienced networking teacher'",
             },
             {
@@ -137,7 +137,7 @@ export const m03 = {
             {
                 title: "Instruction hierarchy",
                 before: "One bare sentence",
-                after: "Numbered steps: (1) define, (2) explain why, (3) describe how, (4) give an example",
+                after: "Four numbered steps to define, explain why, describe how, and give an example",
             },
             {
                 title: "Format",
@@ -147,7 +147,7 @@ export const m03 = {
             {
                 title: "Constraints",
                 before: "Nothing off-limits",
-                after: "Avoid advanced subnetting; keep language beginner-friendly",
+                after: "Avoid advanced subnetting and keep language beginner-friendly",
             },
             {
                 title: "Examples",
@@ -160,8 +160,8 @@ export const m03 = {
         isDraft: false,
         source: "My reflection on Lab Exercise #3.",
         paragraphs: [
-            "Before this exercise a prompt felt like a question; after rewriting the same sentence seven different ways, a prompt started to feel like a small program. Every framework letter is a component I can deliberately include or leave out.",
-            "RTCFC became the skeleton I reached for first — role, task, context, format, constraint — and it carried my Master Vault prompt in the Prompt Vault game a week later.",
+            "Before this exercise a prompt felt like a question. After rewriting the same sentence seven different ways, a prompt started to feel like a small program. Every framework letter is a component I can deliberately include or leave out.",
+            "RTCFC (role, task, context, format, constraint) became the skeleton I reached for first, and it carried my Master Vault prompt in the Prompt Vault game a week later.",
         ],
     },
     gallery: {

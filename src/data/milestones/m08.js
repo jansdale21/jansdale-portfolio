@@ -7,12 +7,12 @@ export const m08 = {
     concept: "Meta-prompting",
     concepts: ["Meta-prompting", "Role assignment", "Process control", "Output specification", "Memory policy"],
     summary:
-        "Written the same day as Lab Exercise #2. Instead of asking ChatGPT a question, I asked it to interview me — one question at a time — so it could write my own personalisation and memory preferences.",
+        "Written the same day as Lab Exercise #2. Instead of asking ChatGPT a question, I asked it to interview me one question at a time so it could write my own personalisation and memory preferences.",
     preview: "/evidence/08/01_chatgpt-custom-instructions_result.png",
     kind: "single",
     beginning: [
-        "I wrote this on August 5, the same day as Lab Exercise #2. It was designed from the start as a tool for improving the tool itself: a prompt whose deliverable is not an answer, but a configuration that every future conversation starts from.",
-        "The prompt below makes ChatGPT an interviewer. One question at a time, each building on my previous answers, with follow-ups whenever I am vague — until it has enough to write my personalisation, my response preferences and a memory policy.",
+        "I wrote this on August 5, the same day as Lab Exercise #2. It was designed from the start as a tool for improving the tool itself. Its deliverable is not an answer but a configuration that every future conversation starts from.",
+        "The prompt below makes ChatGPT an interviewer. One question at a time, each building on my previous answers, with follow-ups whenever I am vague, until it has enough to write my personalisation, my response preferences and a memory policy.",
     ],
     solo: {
         promptLabel: "The prompt",
@@ -26,12 +26,12 @@ export const m08 = {
             },
         ],
         outputNote:
-            "The screenshot shows the saved result: personalisation and memory preferences written by the interview, stored in ChatGPT settings.",
+            "The screenshot shows the saved result, the personalisation and memory preferences the interview wrote, stored in ChatGPT settings.",
     },
     learned: {
         paragraphs: [
-            "Meta-prompting: the output of this prompt is not text I read once — it is instructions that shape every future conversation. The design effort went into process control: one question at a time, no skipped topics, follow-ups on vague answers, and a justification for every next question.",
-            "It also specifies its own deliverables — five required output sections, down to a memory policy for what should and should not be remembered about me. A prompt with acceptance criteria.",
+            "This is meta-prompting. The output of this prompt is not text I read once but instructions that shape every future conversation. Most of the design effort went into process control, with one question at a time, no skipped topics, follow-ups on vague answers, and a justification for every next question.",
+            "It also specifies its own deliverables, five required output sections, down to a memory policy for what should and should not be remembered about me. A prompt with acceptance criteria.",
         ],
         principles: ["Role assignment", "One-question-at-a-time", "Challenge assumptions", "Required output sections", "Memory policy"],
     },
@@ -46,22 +46,22 @@ export const m08 = {
             {
                 title: "Process control",
                 before: "—",
-                after: "Structured interview: one question at a time, building on answers, follow-ups on vague replies",
+                after: "A structured interview, one question at a time, building on answers, with follow-ups on vague replies",
             },
             {
                 title: "Quality rules",
                 before: "—",
-                after: "Challenge assumptions; justify why each next question matters",
+                after: "Challenge assumptions and justify why each next question matters",
             },
             {
                 title: "Output specification",
                 before: "—",
-                after: "Five required deliverables — from an 'About Me' section to a reasoning summary",
+                after: "Five required deliverables, from an 'About Me' section to a reasoning summary",
             },
             {
                 title: "Persistence",
                 before: "—",
-                after: "An explicit memory policy: what should and should not be remembered across conversations",
+                after: "An explicit memory policy on what should and should not be remembered across conversations",
             },
         ],
     },
@@ -69,12 +69,12 @@ export const m08 = {
         isDraft: false,
         source: "My reflection on AI Personalization.",
         paragraphs: [
-            "I wrote this the same day as Lab Exercise #2, where ChatGPT's memory carried the UniConnect details into a brand-new conversation. This prompt works from the other side: instead of observing what the AI remembers, it sets out what should and should not be remembered — and writes the instructions every future conversation starts from.",
-            "It builds on what Lab Exercise #1 had already shown me — audience, constraints and explicit output requirements — and pushes further: a defined role, rules for how the interview runs, and five required deliverables. Looking back, it was an early version of the structured prompts I would later learn to name in the frameworks exercise.",
+            "I wrote this the same day as Lab Exercise #2, where ChatGPT's memory carried the UniConnect details into a brand-new conversation. This prompt works from the other side. Instead of observing what the AI remembers, it sets out what should and should not be remembered, and it writes the instructions every future conversation starts from.",
+            "It builds on what Lab Exercise #1 had already shown me (audience, constraints and explicit output requirements) and pushes further with a defined role, rules for how the interview runs, and five required deliverables. Looking back, it was an early version of the structured prompts I would later learn to name in the frameworks exercise.",
         ],
     },
     gallery: null,
     gaps: [
-        "The document covers ChatGPT, Gemini and Claude; the result shown here is from ChatGPT.",
+        "The document covers ChatGPT, Gemini and Claude. The result shown here is from ChatGPT.",
     ],
 };

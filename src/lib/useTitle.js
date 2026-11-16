@@ -6,6 +6,6 @@ const SITE = "Jansdale S. Yusi";
 export default function useTitle(title) {
     useEffect(() => {
         if (title === null) return;
-        document.title = title ? `${title} — ${SITE}` : `${SITE} — Portfolio & The Evolution of My Prompts`;
+        document.title = title ? `${title} | ${SITE}` : `${SITE} | Portfolio & The Evolution of My Prompts`;
     }, [title]);
 }

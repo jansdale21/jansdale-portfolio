@@ -39,8 +39,8 @@ export default function ThenNow() {
                     Day one <span className="font-serifacc font-normal italic text-lime">vs.</span> after PDC60
                 </h2>
                 <p className="mt-5 max-w-2xl text-sm leading-relaxed text-mutew md:text-base">
-                    Same goal, two prompts: the first one I recorded in PDC60, and the same request rewritten
-                    with RTCFC — Role, Task, Context, Format, Constraint — plus the rules the later activities
+                    Same goal, two prompts. The first is the one I recorded in PDC60, and the second is the same request
+                    rewritten with RTCFC (Role, Task, Context, Format, Constraint) plus the rules the later activities
                     taught me. Pick an element to find it in the new prompt.
                 </p>
             </Reveal>

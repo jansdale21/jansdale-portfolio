@@ -13,7 +13,7 @@ export const m02 = {
         "Human judgment",
     ],
     summary:
-        "A seven-part stress test of what conversational AI does well and where it fails — ambiguity, false premises, hallucinated references, memory and human judgment — documented screenshot by screenshot.",
+        "A seven-part stress test of what conversational AI does well and where it fails, covering ambiguity, false premises, hallucinated references, memory and human judgment, documented screenshot by screenshot.",
     preview: "/evidence/02/05_partB-exp1_BEFORE_ambiguous-prompt_and-output.png",
     miniBefore: "Which one is better?",
     miniAfter: "Which is better for a small university website with mostly static pages…",
@@ -22,13 +22,13 @@ export const m02 = {
     shots: "pair",
     compare: { beforeLabel: "Before", afterLabel: "After" },
     beginning: [
-        "Lab Exercise #2 put conversational AI through a series of tests: explanation, text transformation, summarisation and structured tables on the capability side; ambiguous instructions, false premises, hallucinated references, conversation memory and human judgment on the limitation side.",
-        "The prompts in the experiments were supplied by the lab instructions — so this milestone is not about rewriting my own prompts. It is about learning what actually changes an AI's behaviour: context, verification, memory settings, and the absolute necessity of human judgment.",
+        "Lab Exercise #2 put conversational AI through a series of tests. The capability side covered explanation, text transformation, summarisation and structured tables. The limitation side covered ambiguous instructions, false premises, hallucinated references, conversation memory and human judgment.",
+        "The prompts in the experiments came from the lab instructions, so this milestone is not about rewriting my own prompts. It is about learning what actually changes an AI's behaviour, like context, verification, memory settings, and the absolute necessity of human judgment.",
     ],
     learned: {
         paragraphs: [
-            "The gap between a vague question and a specified one is the gap between a clarifying question and a useful answer. 'Which one is better?' could not even be answered — the AI had to ask what was being compared.",
-            "On the limitation side, I verified academic-looking references claim by claim, watched the AI correct a false premise about Java's origin, and confirmed that memory features quietly carry context across conversations — which is personalisation and privacy risk at the same time.",
+            "The gap between a vague question and a specified one is the gap between a clarifying question and a useful answer. 'Which one is better?' could not even be answered, so the AI had to ask what was being compared.",
+            "On the limitation side, I verified academic-looking references claim by claim, watched the AI correct a false premise about Java's origin, and confirmed that memory features quietly carry context across conversations. That is personalisation and a privacy risk at the same time.",
         ],
         principles: [
             "Ambiguity vs. context",
@@ -39,21 +39,21 @@ export const m02 = {
         ],
     },
     before: {
-        sectionTitle: "Before — the vague prompt (from the lab)",
+        sectionTitle: "The vague prompt (from the lab)",
         promptLabel: "Ambiguous prompt",
         prompt: "Which one is better?",
         evidence: [
             {
                 src: "/evidence/02/05_partB-exp1_BEFORE_ambiguous-prompt_and-output.png",
                 label: "Ambiguous prompt & AI output",
-                caption: "With no context, the AI could not tell what was being compared — it asked which options I meant instead of guessing.",
+                caption: "With no context, the AI could not tell what was being compared, so it asked which options I meant instead of guessing.",
             },
         ],
         outputNote:
             "It recognised that the prompt did not identify what was being compared, and requested the choices it needed rather than guessing.",
     },
     after: {
-        sectionTitle: "After — the specified prompt (from the lab)",
+        sectionTitle: "The specified prompt (from the lab)",
         promptLabel: "Specified prompt",
         prompt:
             "Which is better for a small university website with mostly static pages: a traditional content management system or a custom web application? Consider cost, maintenance, and technical expertise.",
@@ -71,12 +71,12 @@ export const m02 = {
         items: [
             {
                 title: "Clarity",
-                before: "'Which one' — the options were never named",
-                after: "Two named options: traditional CMS vs. custom web application",
+                before: "'Which one', with the options never named",
+                after: "Two named options, traditional CMS vs. custom web application",
             },
             {
                 title: "Context",
-                before: "None — nothing was said about the project",
+                before: "Nothing was said about the project",
                 after: "A small university website with mostly static pages",
             },
             {
@@ -90,9 +90,9 @@ export const m02 = {
         isDraft: false,
         source: "My reflection on Lab Exercise #2.",
         paragraphs: [
-            "Conversational AI outputs should be evaluated rather than automatically trusted — an answer can sound clear, detailed and confident while still being incomplete, oversimplified or incorrect.",
-            "This lab showed me both sides. The AI followed instructions well, asked for clarification when the question was vague, and corrected the false claim that Microsoft created Java. But its analogy oversimplified machine learning, its summary dropped supporting details, and even its genuine academic references still had to be checked against the publishers. Its memory carried the project details into a new conversation — useful for personalization, but something to manage carefully.",
-            "In the end, I see conversational AI as a support tool, not an unquestionable source or a final decision-maker. When a student asked whether to drop a course, it helped weigh the options but rightly left the decision to them — the same way I have to verify facts and judge whether an answer fits the real situation.",
+            "Conversational AI outputs should be evaluated rather than automatically trusted. An answer can sound clear, detailed and confident while still being incomplete, oversimplified or incorrect.",
+            "This lab showed me both sides. The AI followed instructions well, asked for clarification when the question was vague, and corrected the false claim that Microsoft created Java. But its analogy oversimplified machine learning, its summary dropped supporting details, and even its genuine academic references still had to be checked against the publishers. Its memory carried the project details into a new conversation, which is useful for personalization, but something to manage carefully.",
+            "In the end, I see conversational AI as a support tool, not an unquestionable source or a final decision-maker. When a student asked whether to drop a course, it helped weigh the options but rightly left the decision to them, the same way I have to verify facts and judge whether an answer fits the real situation.",
         ],
     },
     gallery: {
@@ -121,7 +121,7 @@ export const m02 = {
             {
                 src: "/evidence/02/05_partB-exp1_BEFORE_ambiguous-prompt_and-output.png",
                 label: "Ambiguity · vague prompt",
-                caption: "With no context, the AI could not tell what was being compared — it asked which options I meant instead of guessing.",
+                caption: "With no context, the AI could not tell what was being compared, so it asked which options I meant instead of guessing.",
             },
             {
                 src: "/evidence/02/06_partB-exp1_AFTER_specific-prompt_and-output.png",
@@ -131,22 +131,22 @@ export const m02 = {
             {
                 src: "/evidence/02/07_partB-exp2_false-premise_prompt-and-output.png",
                 label: "False premise test",
-                caption: "The AI corrected the false premise — Java was created by Sun Microsystems, not Microsoft — before answering.",
+                caption: "The AI corrected the false premise (Java was created by Sun Microsystems, not Microsoft) before answering.",
             },
             {
                 src: "/evidence/02/08_partC_academic-references_output-1of2.png",
                 label: "Hallucination check · 1 of 2",
-                caption: "The academic references the AI recommended — the first two.",
+                caption: "The first two academic references the AI recommended.",
             },
             {
                 src: "/evidence/02/09_partC_academic-references_output-2of2.png",
                 label: "Hallucination check · 2 of 2",
-                caption: "The third reference. I checked all three against the publishers — every one was genuine.",
+                caption: "The third reference. I checked all three against the publishers, and every one was genuine.",
             },
             {
                 src: "/evidence/02/10_partD_context-step1_establish-context.png",
                 label: "Context · setup",
-                caption: "Setting up context: 'My name is Alex…' and the UniConnect app — note the 'Memory updated' label.",
+                caption: "Setting up context with 'My name is Alex…' and the UniConnect app. Note the 'Memory updated' label.",
             },
             {
                 src: "/evidence/02/11_partD_context_cloud-computing.png",
@@ -171,7 +171,7 @@ export const m02 = {
             {
                 src: "/evidence/02/15_partD_context_recall-new-conversation.png",
                 label: "Memory · new conversation",
-                caption: "In a brand-new conversation it still knew — the platform's memory had saved the details.",
+                caption: "In a brand-new conversation it still knew, because the platform's memory had saved the details.",
             },
             {
                 src: "/evidence/02/16_partE_human-judgment_prompt-and-output.png",

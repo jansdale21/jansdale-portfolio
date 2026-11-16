@@ -40,7 +40,7 @@ export const education = [
     {
         school: "Angeles University Foundation",
         degree: "BS Information Technology",
-        period: "2023 — Present",
+        period: "2023 to Present",
         details: [
             "Academic recognitions: DOST-JLSS, CHED Merit, E-APA",
             "Consistent University Scholar",
@@ -48,7 +48,7 @@ export const education = [
     },
     {
         school: "Our Lady of Fatima University, Pampanga Campus",
-        degree: "Senior High School — STEM strand",
+        degree: "Senior High School, STEM strand",
         period: "Graduated",
         details: ["With High Honors", "Batch Valedictorian"],
     },
@@ -110,7 +110,7 @@ export const projects = [
         summary: "Layered asset tracking and persistent identification for physical assets.",
         stack: ["ESP32", "C++", "GNSS/GSM", "Traccar", "Laravel", "MySQL", "Flutter", "NFC"],
         images: [
-            { src: "/projects/latch_01_mobile-app_location-view.jpg", caption: "LATCH mobile app — live location view" },
+            { src: "/projects/latch_01_mobile-app_location-view.jpg", caption: "LATCH mobile app, live location view" },
             { src: "/projects/latch_02_mobile-app_e-paper-update.jpg", caption: "NFC e-paper display update" },
         ],
         featured: true,
@@ -123,7 +123,7 @@ export const projects = [
         year: "2026",
         role: "Project Manager · Full-Stack Developer",
         summary:
-            "Customer ordering and café operations on a Laravel/MySQL platform — customer menus, ordering and administrative workflows — with a separate WordPress site presenting the café.",
+            "Customer ordering and café operations on a Laravel/MySQL platform, covering customer menus, ordering and administrative workflows, with a separate WordPress site presenting the café.",
         stack: ["Laravel", "PHP", "MySQL", "WordPress", "JavaScript"],
         images: [
             { src: "/projects/kumachi_01_laravel_customer-home.jpg", caption: "Laravel customer home" },
@@ -155,7 +155,7 @@ export const projects = [
         year: "2025",
         role: "Project Manager · Full-Stack Developer",
         summary:
-            "A Laravel/MySQL web application for NFC-supported clinical information access and traceable workflows — patient, visit, queue, appointment and NFC tag views in one dashboard.",
+            "A Laravel/MySQL web application for NFC-supported clinical information access and traceable workflows, with patient, visit, queue, appointment and NFC tag views in one dashboard.",
         stack: ["NFC", "Laravel", "PHP", "MySQL", "JavaScript"],
         images: [{ src: "/projects/lifetag_01_clinical-dashboard.jpg", caption: "Clinical dashboard" }],
     },
@@ -163,7 +163,7 @@ export const projects = [
         name: "Cisco Packet Tracer Simulations",
         contribution: "Completed the Cisco coursework simulations covering routing, switching and network configuration.",
         subtitle: "Networking Coursework",
-        year: "2024 — 2026",
+        year: "2024 to 2026",
         role: "Simulation Work",
         summary:
             "Completed networking simulations covering fundamentals, routing, switching and network configuration.",
@@ -174,9 +174,9 @@ export const projects = [
 ];
 
 export const achievements = [
-    "Champion — RAITE 2026 Quiz Bee",
-    "Second Place — On-Campus Front-End Competition",
-    "Second Place — On-Campus Quiz Bee",
+    "Champion, RAITE 2026 Quiz Bee",
+    "Second Place, On-Campus Front-End Competition",
+    "Second Place, On-Campus Quiz Bee",
     "Thesis paper accepted at CISCOM 2026",
 ];
 

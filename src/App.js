@@ -28,7 +28,7 @@ class ErrorBoundary extends Component {
         if (this.state.error) {
             return (
                 <div className="flex min-h-screen flex-col items-center justify-center gap-6 bg-bgd p-8 text-center font-mono text-sm text-ink">
-                    <p>Something went wrong — please refresh the page.</p>
+                    <p>Something went wrong. Please refresh the page.</p>
                     <a href="/" className="ix-lb-btn">
                         Back to home
                     </a>

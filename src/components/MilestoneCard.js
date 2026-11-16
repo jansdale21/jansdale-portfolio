@@ -77,7 +77,7 @@ export default function MilestoneCard({ m }) {
                             className="ix-ev-thumb mt-6"
                             src={m.preview}
                             label="Evidence"
-                            alt={`${m.shortTitle} — evidence preview`}
+                            alt={`${m.shortTitle} evidence preview`}
                             caption={null}
                         />
                     )}

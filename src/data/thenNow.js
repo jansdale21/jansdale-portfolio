@@ -5,7 +5,7 @@
 export const thenNow = {
     then: {
         date: "July 2026",
-        source: "Lab Exercise #1 — my first recorded prompt",
+        source: "Lab Exercise #1, my first recorded prompt",
         text: "Tell me about cybersecurity.",
     },
     now: {
@@ -16,7 +16,7 @@ export const thenNow = {
 TASK: Explain what cybersecurity is and why it matters.
 Include, in this order:
 1. A two-sentence definition in plain language.
-2. Three common threats students face — phishing, malware and weak passwords — each with one realistic campus example and one action the student can take today.
+2. Three common threats students face (phishing, malware and weak passwords), each with one realistic campus example and one action the student can take today.
 3. A three-item checklist the student can follow this week.
 
 CONTEXT: The readers are first-year IT students with no professional cybersecurity experience. They use a laptop, a phone and a school portal every day.
@@ -31,13 +31,13 @@ CONSTRAINT:
     },
     // find = exact text in the rewritten prompt (to = last line of a multi-line part); lesson = where I learned it.
     anatomy: [
-        { k: "R — Role", find: "ROLE:", lesson: "RTCFC framework — Lab Exercise #3" },
-        { k: "T — Task", find: "TASK:", lesson: "RTCFC framework — Lab Exercise #3" },
-        { k: "Ordered steps", find: "Include, in this order:", to: "3. A three-item checklist", lesson: "Step-by-step instructions (RISEN) — Lab Exercise #3" },
-        { k: "C — Context", find: "CONTEXT:", lesson: "Audience from Lab Exercise #1, context from Lab Exercise #2" },
-        { k: "F — Format", find: "FORMAT:", lesson: "Output format and length — Lab Exercise #1" },
-        { k: "C — Constraint", find: "CONSTRAINT:", to: "ask me one short question before answering", lesson: "RTCFC framework — Lab Exercise #3" },
-        { k: "Explicit requirements", find: "one action the student can take today", lesson: "Say it, don't imply it — The Labyrinth" },
+        { k: "R · Role", find: "ROLE:", lesson: "RTCFC framework, Lab Exercise #3" },
+        { k: "T · Task", find: "TASK:", lesson: "RTCFC framework, Lab Exercise #3" },
+        { k: "Ordered steps", find: "Include, in this order:", to: "3. A three-item checklist", lesson: "Step-by-step instructions (RISEN), Lab Exercise #3" },
+        { k: "C · Context", find: "CONTEXT:", lesson: "Audience from Lab Exercise #1, context from Lab Exercise #2" },
+        { k: "F · Format", find: "FORMAT:", lesson: "Output format and length, Lab Exercise #1" },
+        { k: "C · Constraint", find: "CONSTRAINT:", to: "ask me one short question before answering", lesson: "RTCFC framework, Lab Exercise #3" },
+        { k: "Explicit requirements", find: "one action the student can take today", lesson: "Say it, don't imply it (The Labyrinth)" },
         { k: "No invention", find: "Do not invent statistics", lesson: "Lab Exercise #2 & Lost Context Archive" },
         { k: "Safety", find: "Never ask for or repeat passwords", lesson: "Prompt Vault & The Labyrinth" },
         { k: "Clarify first", find: "ask me one short question before answering", lesson: "Lab Exercise #2 & The Labyrinth" },

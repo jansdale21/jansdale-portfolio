@@ -55,7 +55,7 @@ export default function FrameworkPicker({ frameworks }) {
                         </dl>
                     </div>
                     <PromptBlock
-                        label={`${fw.name} — complete prompt`}
+                        label={`Complete ${fw.name} prompt`}
                         prompt={fw.prompt}
                         tone="lime"
                         id={`framework-prompt-${fw.name}`}

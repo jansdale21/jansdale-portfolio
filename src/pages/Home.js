@@ -164,7 +164,7 @@ function Education() {
     return (
         <section id="education" className="ix-sec mx-auto max-w-7xl px-5 md:px-10">
             <Reveal>
-                <SectionLabel as="h2">04 — Education</SectionLabel>
+                <SectionLabel as="h2">04 · Education</SectionLabel>
             </Reveal>
             <div className="grid gap-4 md:grid-cols-2">
                 {education.map((e, i) => (
@@ -205,7 +205,7 @@ function Skills() {
     return (
         <section id="skills" className="ix-sec mx-auto max-w-7xl px-5 md:px-10">
             <Reveal>
-                <SectionLabel as="h2">03 — Technical skills</SectionLabel>
+                <SectionLabel as="h2">03 · Technical skills</SectionLabel>
             </Reveal>
             <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
                 {skills.map((g, i) => (
@@ -236,7 +236,7 @@ function Projects() {
     return (
         <section id="projects" className="mx-auto max-w-7xl px-5 py-20 md:px-10 md:py-28">
             <Reveal>
-                <SectionLabel>01 — Projects</SectionLabel>
+                <SectionLabel>01 · Projects</SectionLabel>
                 <h2 className="mb-10 max-w-2xl font-display text-3xl font-extrabold leading-tight md:text-5xl">
                     Academic projects, <span className="font-serifacc font-normal italic text-lime">shipped.</span>
                 </h2>
@@ -337,7 +337,7 @@ function Achievements() {
     return (
         <section id="achievements" className="ix-sec mx-auto max-w-7xl px-5 md:px-10">
             <Reveal>
-                <SectionLabel as="h2">02 — Achievements, research & training</SectionLabel>
+                <SectionLabel as="h2">02 · Achievements, research & training</SectionLabel>
             </Reveal>
             <div className="grid gap-4 lg:grid-cols-2">
                 <Reveal className="h-full">
@@ -395,7 +395,7 @@ function JourneyCta() {
             <div className="relative mx-auto max-w-7xl px-5 py-24 text-center md:px-10 md:py-32">
                 <Reveal>
                     <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-lime">
-                        PDC60 — Professional Domain Course 6 · July — November 2026
+                        PDC60 · Professional Domain Course 6 · July to November 2026
                     </p>
                     <h2 className="mx-auto mt-5 max-w-3xl font-display text-4xl font-extrabold leading-tight md:text-6xl">
                         See how my prompts
@@ -405,7 +405,7 @@ function JourneyCta() {
                         </span>
                     </h2>
                     <p className="mx-auto mt-6 max-w-xl text-sm leading-relaxed text-mutew md:text-base">
-                        Eight milestones — the prompts I wrote, how the AI responded, and
+                        Eight milestones showing the prompts I wrote, how the AI responded, and
                         what each activity taught me.
                     </p>
                     <Link
